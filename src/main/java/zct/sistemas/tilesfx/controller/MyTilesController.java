@@ -69,7 +69,7 @@ public class MyTilesController implements Initializable {
 	}
 
 	private Tile createTile(Mock mock) {
-		ImageView iv = new ImageView(new Image("/img/logo_novo.png"));
+		ImageView iv = new ImageView(new Image("/img/bandeira.png"));
 		iv.setCursor(Cursor.HAND);
 		iv.setOnMouseClicked(event -> System.out.println(mock.getName()));
 		Tooltip.install(iv, new Tooltip("CLICK!"));
